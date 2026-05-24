@@ -1,0 +1,57 @@
+{
+  "saved_at": "2026-05-24T17:15:00+08:00",
+  "round": 11,
+  "genre": "postapoc",
+  "current_scene": "b4_rewriting",
+  "player": {
+    "mi": 63,
+    "inventory": ["皮面笔记本", "工作证（未查看）", "战术平板（本地存储）", "B2武器库钥匙（3把锈蚀钥匙）"],
+    "weapon": {"type": "手枪", "ammo": "5/15", "condition": "枪管变形，扳机黏涩"},
+    "fragments": [],
+    "clues_found": [
+      "笔记本链条——你是第7环，K是第23+环",
+      "崩塌是缝合而非灾难",
+      "追兵是失去变化能力的失败版本，因嫉妒而杀戮",
+      "B5是崩塌后长出的有机结构，有东西在呼吸",
+      "K经历了至少23次循环"
+    ],
+    "visited_scenes": ["waking_room", "alley", "storage_corridor", "elevator_shaft", "b4_room"],
+    "player_knowledge": {
+      "notebook_is_chain": true,
+      "chain_link_7": true,
+      "k_23_cycles": true,
+      "reality_thinned_not_broken": true,
+      "pursuers_are_failed_versions": true,
+      "b5_breathes": true,
+      "change_ability_remains": true
+    }
+  },
+  "npc": {
+    "name": "K",
+    "trust": 70,
+    "mi": null,
+    "location": "B4检修室",
+    "status": "手掌贴在B5门上，感受脉搏"
+  },
+  "flags": {
+    "notebook_self_writing": true,
+    "right_knee_critical": true,
+    "pursuers_at_b4_door": true,
+    "b4_another_self_found": true,
+    "b5_door_sealed": true,
+    "gun_damaged": true,
+    "notebook_written_first_page": true,
+    "rewriting_as_commands": true,
+    "chain_link_identified": true
+  },
+  "critical_path": [
+    {"scene": "pursued", "choice": "window_escape", "round": 4},
+    {"scene": "ambush_decision", "choice": "flank_building", "round": 5},
+    {"scene": "darkness_gambit", "choice": "smash_light", "round": 7},
+    {"scene": "elevator_descent", "choice": "enter_shaft", "round": 8},
+    {"scene": "self_encounter", "choice": "trust_and_listen", "round": 9},
+    {"scene": "writing_chain", "choice": "write_record", "round": 10}
+  ],
+  "abandoned_timelines": [],
+  "resonance_chain": []
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-24T00:00:00+08:00",
+  "genre": "postapoc",
+  "current_scene": "waking",
+  "round": 0,
+  "player": {
+    "mi": 60,
+    "inventory": ["皮面笔记本"],
+    "fragments_found": [],
+    "clues_found": ["窗外城市景象不稳定", "笔记本里有自己的笔迹但你不记得写过"]
+  },
+  "npc": {
+    "name": null,
+    "trust": null,
+    "fear": null,
+    "mi": null,
+    "location": null,
+    "status": "未出现"
+  },
+  "flags": {
+    "waking_scene_started": true
+  },
+  "recent_event": "玩家在一间陌生房间的行军床上醒来。窗外是一座不稳定的城市。走廊传来脚步声。",
+  "available_choices": ["A: 打开门，走出去", "B: 躲在门后，等着看来的人是谁", "C: 先从纸箱里看看有没有其他有用的东西", "D: 继续读那本笔记本，看后面还有没有内容"]
+}
